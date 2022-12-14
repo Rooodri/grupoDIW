@@ -32,7 +32,6 @@
     position: fixed;
     bottom: 0;
     /*quitar*/
-    text-align: center;
     display: flex;
     align-items: center;
 }
@@ -42,20 +41,29 @@
     height: 50px;
     margin-left: 10px;
     margin-right: 10px;
+    /*quitar*/
+    align-items: center;
+    justify-content: center;
 }
 
 /*LAS TRES SECTION QUE HAY DENTRO DEL FOOTER*/
 #footer1 {
-    background-color: coral;   
+    background-color: coral;
+    /*quitar*/
     flex: 1;
+    display: flex;
 }
 
 #footer2 {
     background-color: cornflowerblue;
+    /*quitar*/
+    display: flex;
 }
 
 #footer3 {
     background-color: greenyellow;
+    /*quitar*/
+    display: flex;
 }
 
 /*ALINEACIÓN SECTION IZQUIERDA*/
