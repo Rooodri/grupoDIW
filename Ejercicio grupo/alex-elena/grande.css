@@ -37,7 +37,7 @@ body {
 
 /*COLOCACIÓN SEGUNDO DIV*/
 /*quitar al entregar*/
-#idNav div:nth-child(2n) {
+#idNav div:nth-child(2) {
     align-items: flex-start;
     justify-content: flex-end;
 }
@@ -65,6 +65,23 @@ body {
     margin-left: 2.5%;
 }
 
+/*LOS 4 ARTICLES QUE HAY DENTRO DEL SECTION*/
+#idSection1 {
+    background-color:salmon;
+}
+
+#idSection2 {
+    background-color:mediumorchid;
+}
+
+#idSection3 {
+    background-color:palegreen;
+}
+
+#idSection4 {
+    background-color:gold
+}
+
 /*-------------------------------------------------------*/
 /*REGLAS DEL FOOTER*/
 #idFooter {
@@ -89,11 +106,15 @@ body {
     display: flex;
 }
 
+/*COLOCACIÓN PRIMERA SECTION -- CONTACTO*/
+/*quitar al entregar*/
+#idFooter section:nth-child(1) {
+    flex: 1;
+}
+
 /*LAS TRES SECTION QUE HAY DENTRO DEL FOOTER*/
 #footer1 {
     background-color: coral;
-    /*quitar al entregar*/
-    flex: 1;
 }
 
 #footer2 {
