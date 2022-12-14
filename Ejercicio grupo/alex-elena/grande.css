@@ -8,20 +8,46 @@
 #idNav {
     background-color: rgb(211, 211, 211);
     width: 100%;
-    height: 200px;
+    height: 150px;
+    text-transform: uppercase;
+    font-size: x-large;
+    /*quitar al entregar*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#idNav div {
+    width: 25%;
+    height: 75px;
+    margin-left: 50px;
+    /*quitar al entregar*/
+    align-items: flex-end;
+    justify-content: flex-start;
+    display: flex;
+}
+
+/*COLOCACIÓN SEGUNDO DIV*/
+/*quitar al entregar*/
+#idNav div:nth-child(2n) {
+    align-items: flex-start;
+    justify-content: flex-end;
 }
 
 #idNav1 {
     background-color: darkseagreen;
 }
 
+#idNav2 {
+    background-color: orange;
+}
+
+#idNav3 {
+    background-color: mediumspringgreen;
+}
+
 /*-------------------------------------------------------*/
 /*REGLAS DE SECTION MAIN*/
-#idMain {
-    background-color: aquamarine;
-    width: 100%;
-    height: 100%;
-}
 
 /*-------------------------------------------------------*/
 /*REGLAS DEL FOOTER*/
@@ -31,7 +57,7 @@
     height: 100px;
     position: fixed;
     bottom: 0;
-    /*quitar*/
+    /*quitar al entregar*/
     display: flex;
     align-items: center;
 }
@@ -41,32 +67,23 @@
     height: 50px;
     margin-left: 10px;
     margin-right: 10px;
-    /*quitar*/
+    /*quitar al entregar*/
     align-items: center;
     justify-content: center;
+    display: flex;
 }
 
 /*LAS TRES SECTION QUE HAY DENTRO DEL FOOTER*/
 #footer1 {
     background-color: coral;
-    /*quitar*/
+    /*quitar al entregar*/
     flex: 1;
-    display: flex;
 }
 
 #footer2 {
     background-color: cornflowerblue;
-    /*quitar*/
-    display: flex;
 }
 
 #footer3 {
     background-color: greenyellow;
-    /*quitar*/
-    display: flex;
 }
-
-/*ALINEACIÓN SECTION IZQUIERDA*/
-/* #idFooter section:first-child(2) {
-    flex: 1;
-} */
