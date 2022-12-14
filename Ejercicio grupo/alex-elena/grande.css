@@ -1,0 +1,23 @@
+#idFooter {
+    background-color: aquamarine;
+    width: 100%;
+    height: 100px;
+}
+
+#footer1 {
+    background-color: coral;
+    width: 20%;
+    height: 50px;
+}
+
+#footer2 {
+    background-color: cornflowerblue;
+    width: 20%;
+    height: 50px;
+}
+
+#footer3 {
+    background-color: greenyellow;
+    width: 20%;
+    height: 50px;
+}
