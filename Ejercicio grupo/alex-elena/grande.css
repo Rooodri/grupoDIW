@@ -1,23 +1,64 @@
-#idFooter {
-    background-color: aquamarine;
-    width: 100%;
-    height: 100px;
+/*REGLAS GENERALES*/
+* {
+    left: 0;
 }
 
-#footer1 {
-    background-color: coral;
+/*-------------------------------------------------------*/
+/*REGLAS DEL NAV*/
+#idNav {
+    background-color: rgb(211, 211, 211);
+    width: 100%;
+    height: 200px;
+}
+
+#idNav1 {
+    background-color: darkseagreen;
+}
+
+/*-------------------------------------------------------*/
+/*REGLAS DE SECTION MAIN*/
+#idMain {
+    background-color: aquamarine;
+    width: 100%;
+    height: 100%;
+}
+
+/*-------------------------------------------------------*/
+/*REGLAS DEL FOOTER*/
+#idFooter {
+    background-color: grey;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    /*quitar*/
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#idFooter section {
     width: 20%;
     height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*LAS TRES SECTION QUE HAY DENTRO DEL FOOTER*/
+#footer1 {
+    background-color: coral;   
+    flex: 1;
 }
 
 #footer2 {
     background-color: cornflowerblue;
-    width: 20%;
-    height: 50px;
 }
 
 #footer3 {
     background-color: greenyellow;
-    width: 20%;
-    height: 50px;
 }
+
+/*ALINEACIÓN SECTION IZQUIERDA*/
+/* #idFooter section:first-child(2) {
+    flex: 1;
+} */
