@@ -27,14 +27,26 @@ body {
     height: 75px;
     margin-left: 50px;
     /*quitar al entregar*/
+    display: flex;
+}
+
+/*COLOCACIÓN PRIMER DIV*/
+/*quitar al entregar*/
+#idNav div:nth-child(1) {
     align-items: flex-end;
     justify-content: flex-start;
-    display: flex;
 }
 
 /*COLOCACIÓN SEGUNDO DIV*/
 /*quitar al entregar*/
 #idNav div:nth-child(2) {
+    align-items: center;
+    justify-content: center;
+}
+
+/*COLOCACIÓN TERCER DIV*/
+/*quitar al entregar*/
+#idNav div:nth-child(3) {
     align-items: flex-start;
     justify-content: flex-end;
 }
@@ -98,15 +110,27 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     /*quitar al entregar*/
-    align-items: center;
-    justify-content: center;
     display: flex;
 }
 
-/*COLOCACIÓN PRIMERA SECTION -- CONTACTO*/
+/*COLOCACIÓN PRIMERA SECTION (CONTACTO)*/
 /*quitar al entregar*/
 #idFooter section:nth-child(1) {
     flex: 1;
+}
+
+/*COLOCACIÓN SEGUNDA SECTION (ANUNCIOS)*/
+/*quitar al entregar*/
+#idFooter section:nth-child(2) {
+    align-items: center;
+    justify-content: center;
+}
+
+/*COLOCACIÓN TERCERA SECTION (SERVICIOS)*/
+/*quitar al entregar*/
+#idFooter section:nth-child(3) {
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 /*LAS TRES SECTION QUE HAY DENTRO DEL FOOTER*/
