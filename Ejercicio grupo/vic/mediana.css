@@ -4,13 +4,19 @@
 }
 
 body{
-    background-color: yellow;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    font-size: x-large;
+    background-color: skyblue;
 }
+
+
+/* ------------------ */
+/* REGLAS PARA EL NAV */
+/* ------------------ */
 
 #idNav{
     width: 96vw;
@@ -21,21 +27,45 @@ body{
     align-items: center;
     align-content:space-evenly;
     flex-wrap: wrap;
-    background-color: red;
+    background-color: rgb(211, 211, 211);;
 }
 
 #idNav div{
     width: 40vw;
     height: 8vh;
-    background-color: orange;
     display: flex;
     flex-direction: row;
 }
 
+#idNav1 {
+    background-color: royalblue;
+    justify-content: flex-end;
+}
+
+#idNav2 {
+    order: 3;
+    background-color: orange;
+    justify-content: center;
+}
+
+#idNav3 {
+    background-color: mediumspringgreen;
+    justify-content: flex-start;
+}
+
+[id^="idNav"]:nth-child(odd){
+    align-items: flex-end;
+}
+
+
+/* ------------------- */
+/* REGLAS PARA EL MAIN */
+/* ------------------- */
+
 #idMain{
     width: 96vw;
     height: 61vh;
-    background-color: green;
+    background-color: bisque;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -43,33 +73,76 @@ body{
 }
 
 #idMain article{
-    width: 60vw;
-    height: 18vw;
-    background-color: yellowgreen;
+    width: 66vw;
+    height: 14vh;
+    display: flex;
+    align-items: center;
 }
 
 #idMain article:nth-child(3n + 1){
-    background-color: black;
+    align-self: flex-start;
+    justify-content: flex-end;
 }
+
+#idSection2{
+    align-self: flex-end;
+}
+#idSection3{
+    align-self: flex-end;
+}
+
+/*LOS 4 ARTICLES QUE HAY DENTRO DEL SECTION*/
+#idSection1 {
+    background-color:salmon;
+}
+#idSection2 {
+    background-color:mediumorchid;
+}
+#idSection3 {
+    background-color:palegreen;
+}
+#idSection4 {
+    background-color:gold
+}
+
+
+/* --------------------- */
+/* REGLAS PARA EL FOOTER */
+/* --------------------- */
 
 #idFooter{
     width: 96vw;
     height: 15vh;
-    background-color: blue;
+    background-color: grey;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-flow: row-reverse;
 }
 
 #idFooter section{
-    background-color: cyan;
     width: 23vw;
     height: 11vh;
+    display: flex;
 }
 
 footer section:nth-child(2){
     margin: 0vh 1vw 0vh 1vw;
 }
 
+#footer1 {
+    background-color: coral;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
 
+#footer2 {
+    background-color: cornflowerblue;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer3 {
+    background-color: greenyellow;
+}
