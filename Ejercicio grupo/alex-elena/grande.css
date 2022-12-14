@@ -3,14 +3,22 @@
     left: 0;
 }
 
+body {
+    width: 99%;
+    height: 100%;
+    background-color: skyblue;
+    left: 0;
+}
+
 /*-------------------------------------------------------*/
 /*REGLAS DEL NAV*/
 #idNav {
     background-color: rgb(211, 211, 211);
-    width: 100%;
+    width: 80%;
     height: 150px;
     text-transform: uppercase;
     font-size: x-large;
+    margin-left: 10%;
     /*quitar al entregar*/
     display: flex;
     align-items: center;
@@ -18,7 +26,7 @@
 }
 
 #idNav div {
-    width: 25%;
+    width: 20%;
     height: 75px;
     margin-left: 50px;
     /*quitar al entregar*/
@@ -34,8 +42,9 @@
     justify-content: flex-end;
 }
 
+/*LOS TRES DIVS QUE HAY DENTRO DEL NAV*/
 #idNav1 {
-    background-color: darkseagreen;
+    background-color: royalblue;
 }
 
 #idNav2 {
@@ -48,6 +57,13 @@
 
 /*-------------------------------------------------------*/
 /*REGLAS DE SECTION MAIN*/
+#idMain {
+    width: 95%;
+    height: 600px;
+    background-color: bisque;
+    margin-top: 30px;
+    margin-left: 2.5%;
+}
 
 /*-------------------------------------------------------*/
 /*REGLAS DEL FOOTER*/
