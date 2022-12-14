@@ -1,3 +1,2 @@
 # grupoDIW
-
-# repositorio para la actividad FLEX con @media querys con tres tamaños de pantalla
+# repositorio para la actividad grupal FLEX con @media querys para tres tamaños de pantalla
