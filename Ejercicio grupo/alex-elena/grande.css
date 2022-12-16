@@ -12,7 +12,7 @@ body {
 #idNav {
     background-color: rgb(211, 211, 211);
     width: 80%;
-    height: 150px;
+    height: 15vh;
     text-transform: uppercase;
     font-size: x-large;
     margin-left: 10%;
@@ -24,71 +24,90 @@ body {
 
 #idNav div {
     width: 20%;
-    height: 75px;
+    height: 10vh;
     margin-left: 50px;
     /*quitar al entregar*/
     display: flex;
 }
 
-/*COLOCACIÓN PRIMER DIV*/
-/*quitar al entregar*/
-#idNav div:nth-child(1) {
+/*LOS TRES DIVS QUE HAY DENTRO DEL NAV*/
+#idNav1 {
+    background-color: royalblue;
+    /*quitar al entregar*/
     align-items: flex-end;
     justify-content: flex-start;
 }
 
-/*COLOCACIÓN SEGUNDO DIV*/
-/*quitar al entregar*/
-#idNav div:nth-child(2) {
+#idNav2 {
+    background-color: orange;
+    /*quitar al entregar*/
     align-items: center;
     justify-content: center;
 }
 
-/*COLOCACIÓN TERCER DIV*/
-/*quitar al entregar*/
-#idNav div:nth-child(3) {
-    align-items: flex-start;
-    justify-content: flex-end;
-}
-
-/*LOS TRES DIVS QUE HAY DENTRO DEL NAV*/
-#idNav1 {
-    background-color: royalblue;
-}
-
-#idNav2 {
-    background-color: orange;
-}
-
 #idNav3 {
     background-color: mediumspringgreen;
+    /*quitar al entregar*/
+    align-items: flex-start;
+    justify-content: flex-end;
 }
 
 /*-------------------------------------------------------*/
 /*REGLAS DE SECTION MAIN*/
 #idMain {
-    width: 95%;
-    height: 600px;
+    width: 95vw;
+    height: 65vh;
     background-color: bisque;
     margin-top: 30px;
     margin-left: 2.5%;
+    /*quitar al entregar*/
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
 }
 
-/*LOS 4 ARTICLES QUE HAY DENTRO DEL SECTION*/
-#idSection1 {
+#idMain div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#idMain article{
+    width: 20vw;
+    height: 18vh; 
+    display: flex;
+}
+
+#idDivCentral {
+    display: flex;
+    justify-content: center;
+}
+
+/*LOS 5 ARTICLES QUE HAY DENTRO DEL SECTION, Y QUE ESTÁN METIDOS EN 3 DIVS*/
+#idArticle1 {
     background-color:salmon;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
-#idSection2 {
+#idArticle2 {
     background-color:mediumorchid;
+    align-items: flex-end;  
 }
 
-#idSection3 {
+#idArticle3 {
     background-color:palegreen;
+    justify-content: flex-end;
 }
 
-#idSection4 {
-    background-color:gold
+#idArticle4 {
+    background-color:gold;
+}
+
+#idArticleCentral {
+    background-color: slateblue;
+    align-items: center;
+    justify-content: center;
 }
 
 /*-------------------------------------------------------*/
@@ -96,7 +115,7 @@ body {
 #idFooter {
     background-color: grey;
     width: 100%;
-    height: 100px;
+    height: 12vh;
     position: fixed;
     bottom: 0;
     /*quitar al entregar*/
@@ -106,42 +125,30 @@ body {
 
 #idFooter section {
     width: 20%;
-    height: 50px;
+    height: 10vh;
     margin-left: 10px;
     margin-right: 10px;
     /*quitar al entregar*/
     display: flex;
 }
 
-/*COLOCACIÓN PRIMERA SECTION (CONTACTO)*/
-/*quitar al entregar*/
-#idFooter section:nth-child(1) {
-    flex: 1;
-}
-
-/*COLOCACIÓN SEGUNDA SECTION (ANUNCIOS)*/
-/*quitar al entregar*/
-#idFooter section:nth-child(2) {
-    align-items: center;
-    justify-content: center;
-}
-
-/*COLOCACIÓN TERCERA SECTION (SERVICIOS)*/
-/*quitar al entregar*/
-#idFooter section:nth-child(3) {
-    align-items: flex-end;
-    justify-content: flex-end;
-}
-
 /*LAS TRES SECTION QUE HAY DENTRO DEL FOOTER*/
 #footer1 {
     background-color: coral;
+    /*quitar al entregar*/
+    flex: 1;
 }
 
 #footer2 {
     background-color: cornflowerblue;
+    /*quitar al entregar*/
+    align-items: center;
+    justify-content: center;
 }
 
 #footer3 {
     background-color: greenyellow;
+    /*quitar al entregar*/
+    align-items: flex-end;
+    justify-content: flex-end;
 }
