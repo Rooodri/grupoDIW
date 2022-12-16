@@ -8,6 +8,13 @@ body {
 }
 
 /*-------------------------------------------------------*/
+
+/* EJERCICIO 1 (POSICIONAMIENTO NAV): 
+    - Posicionar cada div uno al lado de otro (0.5 puntos)
+    - Posicionar todos los div en el centro vertical y horizontalmente (0.5 puntos)
+    - Posicionar el texto de cada div como se muestra en el ejemplo (0.5 puntos)
+*/
+
 /*REGLAS DEL NAV*/
 #idNav {
     background-color: rgb(211, 211, 211);
@@ -53,6 +60,14 @@ body {
 }
 
 /*-------------------------------------------------------*/
+
+/* EJERCICIO 2 (POSICIONAMIENTO SECTION): 
+    - Posicionamiento del texto de cada uno de los articles (0.5 puntos)
+    - Posicionar el divCentral en el centro (2 puntos)
+    - Posicionar div1 con cada article en su esquina correspondiente (2 puntos)
+    - Posicionar div2 con cada article en su esquina correspondiente (2 puntos)
+*/
+
 /*REGLAS DE SECTION MAIN*/
 #idMain {
     width: 95vw;
@@ -66,19 +81,22 @@ body {
     align-content: space-between;
 }
 
-#idMain div{
-    display: flex;
+#idMain div {
     width: 100%;
+    /*quitar al entregar*/
+    display: flex;
     justify-content: space-between;
 }
 
-#idMain article{
+#idMain article {
     width: 20vw;
     height: 18vh; 
+    /*quitar al entregar*/
     display: flex;
 }
 
 #idDivCentral {
+    /*quitar al entregar*/
     display: flex;
     justify-content: center;
 }
@@ -111,6 +129,14 @@ body {
 }
 
 /*-------------------------------------------------------*/
+
+/* EJERCICIO 3 (POSICIONAMIENTO FOOTER): 
+    - Posicionar cada section uno al lado de otro (0.5 puntos)
+    - Centrar verticalmente los section (0.5 puntos)
+    - Colocar el texto de cada section como corresponde (0.5 puntos)
+    - Posicionar el section footer1 como se muestra en el ejemplo (0.5 puntos)
+*/
+
 /*REGLAS DEL FOOTER*/
 #idFooter {
     background-color: grey;
