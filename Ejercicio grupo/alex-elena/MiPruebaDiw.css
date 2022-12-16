@@ -1,0 +1,176 @@
+/*REGLAS GENERALES*/
+* {
+    left: 0;
+}
+
+body {
+    background-color: skyblue;
+}
+
+/*-------------------------------------------------------*/
+/*REGLAS DEL NAV*/
+#idNav {
+    background-color: rgb(211, 211, 211);
+    width: 80%;
+    height: 15vh;
+    text-transform: uppercase;
+    font-size: x-large;
+    margin-left: 10%;
+    /*quitar al entregar*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#idNav div {
+    width: 20%;
+    height: 75px;
+    margin-left: 50px;
+    /*quitar al entregar*/
+    display: flex;
+}
+
+/*COLOCACIÓN PRIMER DIV*/
+/*quitar al entregar*/
+#idNav div:nth-child(1) {
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+/*COLOCACIÓN SEGUNDO DIV*/
+/*quitar al entregar*/
+#idNav div:nth-child(2) {
+    align-items: center;
+    justify-content: center;
+}
+
+/*COLOCACIÓN TERCER DIV*/
+/*quitar al entregar*/
+#idNav div:nth-child(3) {
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+/*LOS TRES DIVS QUE HAY DENTRO DEL NAV*/
+#idNav1 {
+    background-color: royalblue;
+}
+
+#idNav2 {
+    background-color: orange;
+}
+
+#idNav3 {
+    background-color: mediumspringgreen;
+}
+
+/*-------------------------------------------------------*/
+/*REGLAS DE SECTION MAIN*/
+#idMain {
+    /**Este es el contenedor Padre**/
+    width: 95vw;
+    height: 65vh;
+    background-color: bisque;
+    margin-top: 30px;
+    margin-left: 2.5%;
+    /**Quitar al entregar**/
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+#idMain div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#idSectionCenter{
+    background-color: aqua;
+    justify-self: center;
+    align-self: center;
+    width: 20%;
+}
+
+
+/*LOS 4 ARTICLES QUE HAY DENTRO DEL SECTION*/
+#idMain article{
+    width: 20vw;
+    height: 18vh; 
+    display: flex;
+}
+
+#idSection1 {
+    background-color:salmon;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#idSection2 {
+    align-items: flex-end;
+    background-color:mediumorchid;
+}
+
+#idSection3 {
+    justify-content: flex-end;
+    background-color:palegreen;
+}
+
+#idSection4 {
+    background-color:gold;
+    
+}
+
+/*-------------------------------------------------------*/
+/*REGLAS DEL FOOTER*/
+#idFooter {
+    background-color: grey;
+    width: 100%;
+    height: 12vh;
+    position: fixed;
+    bottom: 0;
+    /*quitar al entregar*/
+    display: flex;
+    align-items: center;
+}
+
+#idFooter section {
+    width: 20%;
+    height: 10vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    /*quitar al entregar*/
+    display: flex;
+}
+
+/*COLOCACIÓN PRIMERA SECTION (CONTACTO)*/
+/*quitar al entregar*/
+#idFooter section:nth-child(1) {
+    flex: 1;
+}
+
+/*COLOCACIÓN SEGUNDA SECTION (ANUNCIOS)*/
+/*quitar al entregar*/
+#idFooter section:nth-child(2) {
+    align-items: center;
+    justify-content: center;
+}
+
+/*COLOCACIÓN TERCERA SECTION (SERVICIOS)*/
+/*quitar al entregar*/
+#idFooter section:nth-child(3) {
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+/*LAS TRES SECTION QUE HAY DENTRO DEL FOOTER*/
+#footer1 {
+    background-color: coral;
+}
+
+#footer2 {
+    background-color: cornflowerblue;
+}
+
+#footer3 {
+    background-color: greenyellow;
+}
