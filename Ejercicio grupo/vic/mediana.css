@@ -4,15 +4,22 @@
 }
 
 body{
+    height: 100vh;
+    font-size: x-large;
+    background-color: skyblue;
+    /* quitar al entregar */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    font-size: x-large;
-    background-color: skyblue;
 }
 
+
+/* EJERCICIO 1 (POSICIONAMIENTO NAV): 
+    - Posicionar cada div uno al lado de otro (0.5 puntos)
+    - Posicionar todos los div en el centro vertical y horizontalmente (0.5 puntos)
+    - Posicionar el texto de cada div como se muestra en el ejemplo (0.5 puntos)
+*/
 
 /* ------------------ */
 /* REGLAS PARA EL NAV */
@@ -22,87 +29,130 @@ body{
     width: 96vw;
     height: 20vh;
     display: flex;
+    background-color: rgb(211, 211, 211);
+    /* quitar al entregar */
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     align-content:space-evenly;
     flex-wrap: wrap;
-    background-color: rgb(211, 211, 211);;
 }
+
+/* reglas para contenido del nav */
 
 #idNav div{
     width: 40vw;
     height: 8vh;
-    display: flex;
+    /* quitar al entregar */
     flex-direction: row;
+    display: flex;
 }
 
 #idNav1 {
     background-color: royalblue;
+    /* quitar al entregar */
     justify-content: flex-end;
 }
 
 #idNav2 {
-    order: 3;
     background-color: orange;
+    /* quitar al entregar */
     justify-content: center;
+    order: 3;
 }
 
 #idNav3 {
     background-color: mediumspringgreen;
+    /* quitar al entregar */
     justify-content: flex-start;
 }
 
 [id^="idNav"]:nth-child(odd){
+    /* quitar al entregar */
     align-items: flex-end;
 }
 
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
 
-/* ------------------- */
-/* REGLAS PARA EL MAIN */
-/* ------------------- */
+
+/* EJERCICIO 2 (POSICIONAMIENTO SECTION #idMain): 
+    - Posicionamiento del texto de cada uno de los articles (0.5 puntos)
+    - Posicionar el divCentral en el centro (2 puntos)
+    - Posicionar div1 con cada article en su esquina correspondiente (2 puntos)
+    - Posicionar div2 con cada article en su esquina correspondiente (2 puntos)
+*/
+
+/* ------------------------------- */
+/* REGLAS PARA EL SECTION #idMain */
+/* ------------------------------ */
 
 #idMain{
     width: 96vw;
     height: 61vh;
     background-color: bisque;
+    /* quitar al entregar */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
 
-#idMain article{
+/* contenido del section #idMain */
+
+#idDiv1, #idDiv2{
+    height: 31vh;
+    width: 96vw;
+    /* quitar al entregar */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+[id^="idArticle"]{
     width: 66vw;
-    height: 14vh;
+    height: 13vh;
+    /* quitar al entregar */
     display: flex;
     align-items: center;
 }
 
-#idMain article:nth-child(3n + 1){
-    align-self: flex-start;
-    justify-content: flex-end;
+#idDivCentral{
+    display: none;
 }
 
 #idArticle1 {
     background-color:salmon;
+    justify-self: center;
+    justify-content: flex-end;
 }
 #idArticle2 {
-    align-self: flex-end;
     background-color:mediumorchid;
+    /* quitar al entregar */
+    align-self: flex-end;
 }
 #idArticle3 {
     background-color:palegreen;
+    /* quitar al entregar */
     align-self: flex-end;
 }
 #idArticle4 {
-    background-color:gold
+    background-color:gold;
+    /* quitar al entregar */
+    justify-content: flex-end;
 }
 
-#idArticleCentral{
-    display: none;
-}
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
 
+
+/* EJERCICIO 3 (POSICIONAMIENTO FOOTER): 
+    - Posicionar cada section uno al lado de otro (0.5 puntos)
+    - Centrar verticalmente los section (0.5 puntos)
+    - Colocar el texto de cada section como corresponde (0.5 puntos)
+    - Posicionar el section footer1 como se muestra en el ejemplo (0.5 puntos)
+*/
 
 /* --------------------- */
 /* REGLAS PARA EL FOOTER */
@@ -112,6 +162,7 @@ body{
     width: 96vw;
     height: 15vh;
     background-color: grey;
+    /* quitar al entregar */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -119,9 +170,12 @@ body{
     flex-flow: row-reverse;
 }
 
+/* contenido del footer */
+
 #idFooter section{
     width: 23vw;
     height: 11vh;
+    /* quitar al entregar */
     display: flex;
 }
 
@@ -131,12 +185,14 @@ footer section:nth-child(2){
 
 #footer1 {
     background-color: coral;
+    /* quitar al entregar */
     justify-content: flex-end;
     align-items: flex-end;
 }
 
 #footer2 {
     background-color: cornflowerblue;
+    /* quitar al entregar */
     justify-content: center;
     align-items: center;
 }

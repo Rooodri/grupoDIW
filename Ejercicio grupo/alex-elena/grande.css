@@ -6,6 +6,7 @@
 
 body {
     background-color: skyblue;
+    font-size: x-large;
 }
 
 /*-------------------------------------------------------*/
@@ -22,7 +23,6 @@ body {
     width: 80%;
     height: 15vh;
     text-transform: uppercase;
-    font-size: x-large;
     margin-left: 10%;
     /*quitar al entregar*/
     display: flex;
@@ -62,14 +62,14 @@ body {
 
 /*-------------------------------------------------------*/
 
-/* EJERCICIO 2 (POSICIONAMIENTO SECTION): 
+/* EJERCICIO 2 (POSICIONAMIENTO SECTION #idMain): 
     - Posicionamiento del texto de cada uno de los articles (0.5 puntos)
     - Posicionar el divCentral en el centro (2 puntos)
     - Posicionar div1 con cada article en su esquina correspondiente (2 puntos)
     - Posicionar div2 con cada article en su esquina correspondiente (2 puntos)
 */
 
-/*REGLAS DE SECTION MAIN*/
+/*REGLAS DE SECTION #idMain*/
 #idMain {
     width: 95vw;
     height: 65vh;
@@ -99,20 +99,23 @@ body {
     display: flex;
 }
 
-/*LOS 5 ARTICLES QUE HAY DENTRO DEL SECTION, Y QUE ESTÁN METIDOS EN 3 DIVS*/
+/*CONTENIDO DEL SECTION #idMain*/
 #idArticle1 {
     background-color:salmon;
+    /*quitar al entregar*/
     align-items: flex-end;
     justify-content: flex-end;
 }
 
 #idArticle2 {
     background-color:mediumorchid;
+    /*quitar al entregar*/
     align-items: flex-end;  
 }
 
 #idArticle3 {
     background-color:palegreen;
+    /*quitar al entregar*/
     justify-content: flex-end;
 }
 
@@ -120,8 +123,13 @@ body {
     background-color:gold;
 }
 
-#idArticleCentral {
+#idDivCentral {
+    width: 20vh;
+    height: 20vh;
+    max-height: 20vw; 
+    max-width: 20vw;
     background-color: slateblue;
+    /*quitar al entregar*/
     align-items: center;
     justify-content: center;
 }
