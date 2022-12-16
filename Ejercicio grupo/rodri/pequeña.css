@@ -1,21 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 body{
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
         background-color: aqua;
 }
 
+/*Aquí empieza la caja naranja*/
 #idNav{
+    width: 100vw;
+    height: 33%;
     display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: orange;
+    justify-content: center;
+    padding: 2%;
+    border-bottom: 2px solid black;
 }
 
 #idNav1{
-
+    background-color: blue;
+    width: 90vw;
+    height: 30%;
+    text-align: start;
 }
 
 #idNav2{
-    
+    background-color: blueviolet;
+    width: 90vw;
+    height: 30%;
+    text-align: end;
 }
 
 #idNav3{
-    
+    background-color: chartreuse;
+    width: 90vw;
+    height: 30%;
+    visibility: hidden;
+}
+
+/*Aquí termina la caja naranja*/
+
+
+/*Aquí empieza el main*/
+#idMain{
+    display: flex;
+    width: 100vw;
+    height: 33%;
+    background-color: pink;
+    padding: 2%;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+}
+
+#idSection1{
+    width: 90vw;
+    height: 30%;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#idSection2{
+    width: 100vw;
+    height: 30%;
+    background-color: rgb(112, 10, 138);
+    visibility: hidden;
+}
+#idSection3{
+    width: 45%;
+    height: 30%;
+    background-color: rgb(217, 220, 20);
+}
+#idSection4{
+    display: flex;
+    justify-content: end;
+    width: 45%;
+    height: 30%;
+    background-color: rgb(20, 220, 47);
+}
+
+/*Aquí termina el main*/
+
+#idFooter{
+    display: flex;
+    background-color: gold;
+    padding: 2%;
+    width: 100vw;
+    height: 33%;
+}
+
+#footer1{
+    background-color: greenyellow;
+    flex:auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#footer2{
+    background-color: deeppink;
+    visibility: hidden;
+}
+
+#footer3{
+    background-color: red;
+    width: 30vw;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
 }
