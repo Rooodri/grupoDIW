@@ -1,6 +1,7 @@
 /*REGLAS GENERALES*/
 * {
-    left: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -73,12 +74,13 @@ body {
     width: 95vw;
     height: 65vh;
     background-color: bisque;
-    margin-top: 30px;
-    margin-left: 2.5%;
+    margin-top: 4vh;
+    margin-left: 2.5vw;
     /*quitar al entregar*/
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
+    justify-content: center;
 }
 
 #idMain div {
@@ -89,16 +91,10 @@ body {
 }
 
 #idMain article {
-    width: 20vw;
-    height: 18vh; 
+    width: 300px;
+    height: 300px; 
     /*quitar al entregar*/
     display: flex;
-}
-
-#idDivCentral {
-    /*quitar al entregar*/
-    display: flex;
-    justify-content: center;
 }
 
 /*LOS 5 ARTICLES QUE HAY DENTRO DEL SECTION, Y QUE ESTÁN METIDOS EN 3 DIVS*/
