@@ -91,8 +91,10 @@ body {
 }
 
 #idMain article {
-    width: 20vh;
-    height: 20vh; 
+    width: 20vw;
+    height: 20vw;
+    max-height: 20vh; 
+    max-width: 20vh;
     /*quitar al entregar*/
     display: flex;
 }
