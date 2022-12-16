@@ -84,18 +84,18 @@ body{
     justify-content: flex-end;
 }
 
-#idSection1 {
+#idArticle1 {
     background-color:salmon;
 }
-#idSection2 {
+#idArticle2 {
     align-self: flex-end;
     background-color:mediumorchid;
 }
-#idSection3 {
+#idArticle3 {
     background-color:palegreen;
     align-self: flex-end;
 }
-#idSection4 {
+#idArticle4 {
     background-color:gold
 }
 
