@@ -1,115 +1,128 @@
-*{
+/*REGLAS GENERALES*/
+* {
     padding: 0px;
     margin: 0px;
 }
-body{
+body { 
         width: 100vw;
         height: 100vh;
-        background-color: aqua;
+        background-color: skyblue;
 }
 
-/*Aquí empieza la caja naranja*/
-#idNav{
+/*-------------------------------------------------------*/
+
+/*REGLAS DEL NAV*/
+#idNav {
     width: 100vw;
     height: 33%;
-    display: flex;
-    flex-wrap: wrap;
     text-align: center;
-    background-color: orange;
-    justify-content: center;
+    background-color: rgb(211, 211, 211);
     padding: 2%;
     border-bottom: 2px solid black;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#idNav1{
-    background-color: blue;
+/*LOS TRES DIVS QUE HAY DENTRO DEL NAV*/
+#idNav1 {
+    background-color: royalblue;
     width: 90vw;
     height: 30%;
     text-align: start;
 }
 
-#idNav2{
-    background-color: blueviolet;
+#idNav2 {
+    background-color: orange;
     width: 90vw;
     height: 30%;
     text-align: end;
 }
 
-#idNav3{
-    background-color: chartreuse;
+#idNav3 {
+    background-color: mediumspringgreen;
     width: 90vw;
     height: 30%;
     visibility: hidden;
 }
 
-/*Aquí termina la caja naranja*/
+/*-------------------------------------------------------*/
 
-
-/*Aquí empieza el main*/
-#idMain{
-    display: flex;
+/*REGLAS DE SECTION MAIN*/
+#idMain {
     width: 100vw;
     height: 33%;
     background-color: pink;
     padding: 2%;
+    border-bottom: 2px solid black;
+    display: flex;
     flex-wrap: wrap;
     flex-wrap: wrap-reverse;
     justify-content: space-around;
-    border-bottom: 2px solid black;
 }
 
-#idSection1{
+#idArticle1 {
     width: 90vw;
     height: 30%;
-    background-color: crimson;
+    background-color: salmon;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#idSection2{
+
+#idArticle2 {
     width: 100vw;
     height: 30%;
-    background-color: rgb(112, 10, 138);
+    background-color: mediumorchid;
     visibility: hidden;
 }
-#idSection3{
+
+#idArticle3 {
     width: 45%;
     height: 30%;
-    background-color: rgb(217, 220, 20);
+    background-color: palegreen;
 }
-#idSection4{
+
+#idArticle4 {
+    width: 45%;
+    height: 30%;
+    background-color: gold;
     display: flex;
     justify-content: end;
-    width: 45%;
-    height: 30%;
-    background-color: rgb(20, 220, 47);
 }
 
-/*Aquí termina el main*/
+#idArticleCentral {
+    background-color: slateblue;
+    /* rodri no se si este le quieres ocultar en tu pantalla, te dejo el color puesto por si lo quieres usar */
+}
 
-#idFooter{
-    display: flex;
-    background-color: gold;
+/*-------------------------------------------------------*/
+
+/*REGLAS DEL FOOTER*/
+
+#idFooter {
+    background-color: grey;
     padding: 2%;
     width: 100vw;
     height: 33%;
+    display: flex;
 }
 
-#footer1{
-    background-color: greenyellow;
-    flex:auto;
+#footer1 {
+    background-color: coral;
+    flex: auto;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
-#footer2{
-    background-color: deeppink;
+#footer2 {
+    background-color: cornflowerblue;
     visibility: hidden;
 }
 
-#footer3{
-    background-color: red;
+#footer3 {
+    background-color: greenyellow;
     width: 30vw;
     display: flex;
     justify-content: start;
