@@ -15,12 +15,12 @@ body{
 }
 
 
-/* EJERCICIO 1 (POSICIONAMIENTO NAV)(3 puntos): 
-    -Que el espacio vertical entre divs y contenedor sea exactamente igual 0.5
-    -Que los divs esten centrados 0.4
-    -Que los divs se respartan en 2 filas 0.5
-    -Que los divs tengan el orden adecuado 0.8
-    -Colocar los textos de los div como corresponde: 0.8
+/* EJERCICIO 1 (POSICIONAMIENTO NAV)(4 puntos): 
+    -Espacio vertical entre divs y contenedor sea exactamente igual, es decir un alineamiento perfecto (0.75 puntos)
+    -Divs centrados horizontalmente (0.5 puntos)
+    -Divs en 2 filas (0.75 puntos)
+    -Que los divs tengan el orden adecuado (1 puntos)
+    -Colocar los textos de los div como corresponde: (1 puntos)
 */
 
 /* ------------------ */
@@ -30,9 +30,10 @@ body{
 #idNav{
     width: 96vw;
     height: 20vh;
-    display: flex;
     background-color: rgb(211, 211, 211);
+    text-transform: uppercase;
     /* quitar al entregar */
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
@@ -78,8 +79,11 @@ body{
 /* --------------------------------------------------------------- */
 
 
-/* EJERCICIO 2 (POSICIONAMIENTO SECTION #idMain)(5 puntos): 
-    - Posicionamiento del texto de cada uno de los articles (0.5 puntos)
+/* EJERCICIO 2 (POSICIONAMIENTO SECTION #idMain)(4 puntos): 
+    -Posicionamiento del texto de cada uno de los articles (0.5 puntos)
+    -Alineamiento vertical equidistante entre todos los elementos y la caja(salvo el espacio entre article2 y article3 que es el doble del resto de espacios verticales) y con la misma distrubucion de todas las cajas (2 puntos);
+    -Alineamiento horizontal de los article como correponde (1 punto)
+    -Solo se pueden ver los 4 article: (0,5 puntos)
 */
 
 /* ------------------------------- */
@@ -118,6 +122,10 @@ body{
 }
 
 #idDivCentral{
+    width: 66vw;
+    height: 13vh;
+    background-color: slateblue;
+    /* quitar al entregar */
     display: none;
 }
 

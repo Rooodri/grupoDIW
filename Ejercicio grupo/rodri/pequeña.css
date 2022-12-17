@@ -1,12 +1,8 @@
 /*REGLAS GENERALES*/
 * {
-    padding: 0px;
-    margin: 0px;
-}
-body { 
-        width: 100vw;
-        height: 100vh;
-        background-color: skyblue;
+    padding: 0;
+    margin: 0;
+    font-size: x-large;
 }
 
 /*-------------------------------------------------------*/
@@ -14,14 +10,14 @@ body {
 /*REGLAS DEL NAV*/
 #idNav {
     width: 100vw;
-    height: 33%;
-    text-align: center;
+    height: 23vh;
     background-color: rgb(211, 211, 211);
-    padding: 2%;
-    border-bottom: 2px solid black;
+    text-transform: uppercase;
+    /* quitar al entregar */
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    align-content: space-evenly;
 }
 
 /*LOS TRES DIVS QUE HAY DENTRO DEL NAV*/
@@ -29,20 +25,26 @@ body {
     background-color: royalblue;
     width: 90vw;
     height: 30%;
-    text-align: start;
+    /* quitar al entregar */
+    display: flex;
+    align-items: center;
 }
 
 #idNav2 {
     background-color: orange;
     width: 90vw;
     height: 30%;
-    text-align: end;
+    /* quitar al entregar */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 #idNav3 {
     background-color: mediumspringgreen;
     width: 90vw;
     height: 30%;
+    /* quitar al entregar */
     visibility: hidden;
 }
 
@@ -51,43 +53,57 @@ body {
 /*REGLAS DE SECTION MAIN*/
 #idMain {
     width: 100vw;
-    height: 33%;
+    height: 43vh;
     background-color: pink;
-    padding: 2%;
-    border-bottom: 2px solid black;
+    /* quitar al entregar */
     display: flex;
     flex-wrap: wrap-reverse;
 }
 
 #idDivCentral{
+    /* quitar al entregar */
     display: none;
+    /* parece que con siemplemente no ponerle ni width ni height
+    ya no aparece en pantalla, pero dejamos lo de none */
 }
+
 #idDiv1{
     width: 100vw;
     height: 50%;
+    /* quitar al entregar */
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
-
+    align-items: flex-start;
 }
+
 #idDiv2{
     width: 100vw;
     height: 50%;
+    /* quitar al entregar */
     display: flex;
     justify-content: center;
+    align-items: flex-end;
 }
 
 #idArticle1 {
     width: 45%;
     height: 50%;
     background-color: salmon;
+    /*quitar al entregar*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 #idArticle2 {
-    justify-self: flex-end;
     width: 45%;
     height: 50%;
     background-color: mediumorchid;
+    /* quitar al entregar */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     /*visibility: hidden;*/
 }
 
@@ -95,6 +111,7 @@ body {
     width: 50%;
     height: 50%;
     background-color: palegreen;
+    /* quitar al entregar */
     display: none;
 }
 
@@ -102,12 +119,9 @@ body {
     width: 50%;
     height: 50%;
     background-color: gold;
-    align-self: center;
-}
-
-#idArticleCentral {
-    background-color: slateblue;
-    /* rodri no se si este le quieres ocultar en tu pantalla, te dejo el color puesto por si lo quieres usar */
+    /* quitar al entregar */
+    display: flex;
+    justify-content: center;
 }
 
 /*-------------------------------------------------------*/
@@ -116,28 +130,37 @@ body {
 
 #idFooter {
     background-color: grey;
-    padding: 2%;
     width: 100vw;
-    height: 33%;
+    height: 34vh;
+    /* quitar al entregar */
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer section{
+    height: 32vh;
 }
 
 #footer1 {
     background-color: coral;
-    flex: auto;
+    /* quitar al entregar */
     display: flex;
+    width: 52vw;
     justify-content: center;
     align-items: flex-end;
 }
 
 #footer2 {
     background-color: cornflowerblue;
+    /* quitar al entregar */
+    width: 28vw;
     visibility: hidden;
 }
 
 #footer3 {
     background-color: greenyellow;
-    width: 30vw;
+    /* quitar al entregar */
     display: flex;
     justify-content: start;
     align-items: flex-end;

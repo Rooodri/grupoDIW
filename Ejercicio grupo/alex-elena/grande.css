@@ -2,11 +2,11 @@
 * {
     margin: 0;
     padding: 0;
+    font-size: x-large;
 }
 
 body {
     background-color: skyblue;
-    font-size: x-large;
 }
 
 /*-------------------------------------------------------*/
