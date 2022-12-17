@@ -15,10 +15,12 @@ body{
 }
 
 
-/* EJERCICIO 1 (POSICIONAMIENTO NAV): 
-    - Posicionar cada div uno al lado de otro (0.5 puntos)
-    - Posicionar todos los div en el centro vertical y horizontalmente (0.5 puntos)
-    - Posicionar el texto de cada div como se muestra en el ejemplo (0.5 puntos)
+/* EJERCICIO 1 (POSICIONAMIENTO NAV)(3 puntos): 
+    -Que el espacio vertical entre divs y contenedor sea exactamente igual 0.5
+    -Que los divs esten centrados 0.4
+    -Que los divs se respartan en 2 filas 0.5
+    -Que los divs tengan el orden adecuado 0.8
+    -Colocar los textos de los div como corresponde: 0.8
 */
 
 /* ------------------ */
@@ -76,11 +78,8 @@ body{
 /* --------------------------------------------------------------- */
 
 
-/* EJERCICIO 2 (POSICIONAMIENTO SECTION #idMain): 
+/* EJERCICIO 2 (POSICIONAMIENTO SECTION #idMain)(5 puntos): 
     - Posicionamiento del texto de cada uno de los articles (0.5 puntos)
-    - Posicionar el divCentral en el centro (2 puntos)
-    - Posicionar div1 con cada article en su esquina correspondiente (2 puntos)
-    - Posicionar div2 con cada article en su esquina correspondiente (2 puntos)
 */
 
 /* ------------------------------- */
@@ -147,11 +146,10 @@ body{
 /* --------------------------------------------------------------- */
 
 
-/* EJERCICIO 3 (POSICIONAMIENTO FOOTER): 
-    - Posicionar cada section uno al lado de otro (0.5 puntos)
-    - Centrar verticalmente los section (0.5 puntos)
-    - Colocar el texto de cada section como corresponde (0.5 puntos)
-    - Posicionar el section footer1 como se muestra en el ejemplo (0.5 puntos)
+/* EJERCICIO 3 (POSICIONAMIENTO FOOTER)(2 puntos): 
+    - Centrar horizontalmente los section (0.67 puntos)
+    - Centrar verticalmente los section (0.66 puntos)
+    - Colocar el texto de cada section como corresponde (0.66 puntos)
 */
 
 /* --------------------- */
