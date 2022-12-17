@@ -14,8 +14,10 @@ body{
     justify-content: center;
 }
 
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
 
-/* EJERCICIO 1 (POSICIONAMIENTO NAV)(4 puntos): 
+/* EJERCICIO 1 (POSICIONAMIENTO NAV) → (TOTAL: 4 puntos): 
     -Espacio vertical entre divs y contenedor sea exactamente igual, es decir un alineamiento perfecto (0.75 puntos)
     -Divs centrados horizontalmente (0.5 puntos)
     -Divs en 2 filas (0.75 puntos)
@@ -78,11 +80,10 @@ body{
 /* --------------------------------------------------------------- */
 /* --------------------------------------------------------------- */
 
-
-/* EJERCICIO 2 (POSICIONAMIENTO SECTION #idMain)(4 puntos): 
+/* EJERCICIO 2 (POSICIONAMIENTO SECTION #idMain) → (TOTAL: 4 puntos): 
     -Posicionamiento del texto de cada uno de los articles (0.5 puntos)
-    -Alineamiento vertical equidistante entre todos los elementos y la caja(salvo el espacio entre article2 y article3 que es el doble del resto de espacios verticales) y con la misma distrubucion de todas las cajas (2 puntos);
-    -Alineamiento horizontal de los article como correponde (1 punto)
+    -Alineamiento vertical equidistante entre todos los elementos y la caja(salvo el espacio entre article2 y article3 que es el doble del resto de espacios verticales) y con la misma distrubución de todas las cajas (2 puntos);
+    -Alineamiento horizontal de los article como corresponde (1 punto)
     -Solo se pueden ver los 4 article: (0,5 puntos)
 */
 
@@ -154,7 +155,7 @@ body{
 /* --------------------------------------------------------------- */
 
 
-/* EJERCICIO 3 (POSICIONAMIENTO FOOTER)(2 puntos): 
+/* EJERCICIO 3 (POSICIONAMIENTO FOOTER) → (TOTAL: 2 puntos): 
     - Centrar horizontalmente los section (0.67 puntos)
     - Centrar verticalmente los section (0.66 puntos)
     - Colocar el texto de cada section como corresponde (0.66 puntos)
