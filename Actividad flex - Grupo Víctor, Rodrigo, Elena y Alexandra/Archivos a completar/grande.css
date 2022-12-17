@@ -1,0 +1,138 @@
+/*REGLAS GENERALES*/
+* {
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+}
+
+body {
+    background-color: skyblue;
+}
+
+/*-------------------------------------------------------*/
+
+/* EJERCICIO 1 (POSICIONAMIENTO NAV) → (TOTAL: 1.9 puntos): 
+    - Posicionar cada div uno al lado de otro (0.7 puntos)
+    - Posicionar todos los div en el centro vertical y horizontalmente (0.7 puntos)
+    - Posicionar el texto de cada div como se muestra en el ejemplo (0.5 puntos)
+*/
+
+/*REGLAS DEL NAV*/
+#idNav {
+    background-color: rgb(211, 211, 211);
+    width: 80%;
+    height: 15vh;
+    text-transform: uppercase;
+    margin-left: 10%;
+}
+
+#idNav div {
+    width: 20%;
+    height: 10vh;
+    margin-left: 50px;
+}
+
+/*LOS TRES DIVS QUE HAY DENTRO DEL NAV*/
+#idNav1 {
+    background-color: royalblue;
+}
+
+#idNav2 {
+    background-color: orange;
+}
+
+#idNav3 {
+    background-color: mediumspringgreen;
+}
+
+/*-------------------------------------------------------*/
+
+/* EJERCICIO 2 (POSICIONAMIENTO SECTION #idMain) → (TOTAL: 5.5 puntos): 
+    - Posicionamiento del texto de cada uno de los articles (0.5 puntos)
+    - Posicionar el divCentral en el centro (1.5 puntos)
+    - Posicionar div1 con cada article en su esquina correspondiente (1.75 puntos)
+    - Posicionar div2 con cada article en su esquina correspondiente (1.75 puntos)
+*/
+
+/*REGLAS DE SECTION #idMain*/
+#idMain {
+    width: 95vw;
+    height: 65vh;
+    background-color: bisque;
+    margin-top: 4vh;
+    margin-left: 2.5vw;
+}
+
+#idMain div {
+    width: 100%;
+}
+
+#idMain article {
+    width: 20vw;
+    height: 20vw;
+    max-height: 20vh; 
+    max-width: 20vh;
+}
+
+/*CONTENIDO DEL SECTION #idMain*/
+#idArticle1 {
+    background-color:salmon;
+}
+
+#idArticle2 {
+    background-color:mediumorchid; 
+}
+
+#idArticle3 {
+    background-color:palegreen;
+}
+
+#idArticle4 {
+    background-color:gold;
+}
+
+#idDivCentral {
+    width: 20vh;
+    height: 20vh;
+    max-height: 20vw; 
+    max-width: 20vw;
+    background-color: slateblue;
+}
+
+/*-------------------------------------------------------*/
+
+/*EJERCICIO 3 (POSICIONAMIENTO FOOTER): 
+    - Posicionar cada section uno al lado de otro (0.7 puntos)
+    - Centrar verticalmente los section (0.7 puntos)
+    - Colocar el texto de cada section como corresponde (0.5 puntos)
+    - Posicionar el section footer1 como se muestra en el ejemplo (0.7 puntos)
+*/
+
+/*REGLAS DEL FOOTER*/
+#idFooter {
+    background-color: grey;
+    width: 100%;
+    height: 12vh;
+    position: fixed;
+    bottom: 0;
+}
+
+#idFooter section {
+    width: 20%;
+    height: 10vh;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*LAS TRES SECTION QUE HAY DENTRO DEL FOOTER*/
+#footer1 {
+    background-color: coral;
+}
+
+#footer2 {
+    background-color: cornflowerblue;
+}
+
+#footer3 {
+    background-color: greenyellow;
+}

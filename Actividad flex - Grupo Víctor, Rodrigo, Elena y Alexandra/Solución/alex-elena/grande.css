@@ -1,0 +1,186 @@
+/*REGLAS GENERALES*/
+* {
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+}
+
+body {
+    background-color: skyblue;
+}
+
+/*-------------------------------------------------------*/
+
+/* EJERCICIO 1 (POSICIONAMIENTO NAV) → (TOTAL: 1.9 puntos): 
+    - Posicionar cada div uno al lado de otro (0.7 puntos)
+    - Posicionar todos los div en el centro vertical y horizontalmente (0.7 puntos)
+    - Posicionar el texto de cada div como se muestra en el ejemplo (0.5 puntos)
+*/
+
+/*REGLAS DEL NAV*/
+#idNav {
+    background-color: rgb(211, 211, 211);
+    width: 80%;
+    height: 15vh;
+    text-transform: uppercase;
+    margin-left: 10%;
+    /*quitar al entregar*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#idNav div {
+    width: 20%;
+    height: 10vh;
+    margin-left: 50px;
+    /*quitar al entregar*/
+    display: flex;
+}
+
+/*LOS TRES DIVS QUE HAY DENTRO DEL NAV*/
+#idNav1 {
+    background-color: royalblue;
+    /*quitar al entregar*/
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+#idNav2 {
+    background-color: orange;
+    /*quitar al entregar*/
+    align-items: center;
+    justify-content: center;
+}
+
+#idNav3 {
+    background-color: mediumspringgreen;
+    /*quitar al entregar*/
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+/*-------------------------------------------------------*/
+
+/* EJERCICIO 2 (POSICIONAMIENTO SECTION #idMain) → (TOTAL: 5.5 puntos): 
+    - Posicionamiento del texto de cada uno de los articles (0.5 puntos)
+    - Posicionar el divCentral en el centro (1.5 puntos)
+    - Posicionar div1 con cada article en su esquina correspondiente (1.75 puntos)
+    - Posicionar div2 con cada article en su esquina correspondiente (1.75 puntos)
+*/
+
+/*REGLAS DE SECTION #idMain*/
+#idMain {
+    width: 95vw;
+    height: 65vh;
+    background-color: bisque;
+    margin-top: 4vh;
+    margin-left: 2.5vw;
+    /*quitar al entregar*/
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+}
+
+#idMain div {
+    width: 100%;
+    /*quitar al entregar*/
+    display: flex;
+    justify-content: space-between;
+}
+
+#idMain article {
+    width: 20vw;
+    height: 20vw;
+    max-height: 20vh; 
+    max-width: 20vh;
+    /*quitar al entregar*/
+    display: flex;
+}
+
+/*CONTENIDO DEL SECTION #idMain*/
+#idArticle1 {
+    background-color:salmon;
+    /*quitar al entregar*/
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#idArticle2 {
+    background-color:mediumorchid;
+    /*quitar al entregar*/
+    align-items: flex-end;  
+}
+
+#idArticle3 {
+    background-color:palegreen;
+    /*quitar al entregar*/
+    justify-content: flex-end;
+}
+
+#idArticle4 {
+    background-color:gold;
+}
+
+#idDivCentral {
+    width: 20vh;
+    height: 20vh;
+    max-height: 20vw; 
+    max-width: 20vw;
+    background-color: slateblue;
+    /*quitar al entregar*/
+    align-items: center;
+    justify-content: center;
+}
+
+/*-------------------------------------------------------*/
+
+/*EJERCICIO 3 (POSICIONAMIENTO FOOTER): 
+    - Posicionar cada section uno al lado de otro (0.7 puntos)
+    - Centrar verticalmente los section (0.7 puntos)
+    - Colocar el texto de cada section como corresponde (0.5 puntos)
+    - Posicionar el section footer1 como se muestra en el ejemplo (0.7 puntos)
+*/
+
+/*REGLAS DEL FOOTER*/
+#idFooter {
+    background-color: grey;
+    width: 100%;
+    height: 12vh;
+    position: fixed;
+    bottom: 0;
+    /*quitar al entregar*/
+    display: flex;
+    align-items: center;
+}
+
+#idFooter section {
+    width: 20%;
+    height: 10vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    /*quitar al entregar*/
+    display: flex;
+}
+
+/*LAS TRES SECTION QUE HAY DENTRO DEL FOOTER*/
+#footer1 {
+    background-color: coral;
+    /*quitar al entregar*/
+    flex: 1;
+}
+
+#footer2 {
+    background-color: cornflowerblue;
+    /*quitar al entregar*/
+    align-items: center;
+    justify-content: center;
+}
+
+#footer3 {
+    background-color: greenyellow;
+    /*quitar al entregar*/
+    align-items: flex-end;
+    justify-content: flex-end;
+}

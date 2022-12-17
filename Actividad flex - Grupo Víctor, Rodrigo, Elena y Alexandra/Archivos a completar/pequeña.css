@@ -1,0 +1,117 @@
+/*REGLAS GENERALES*/
+* {
+    padding: 0;
+    margin: 0;
+    font-size: x-large;
+}
+
+/*-------------------------------------------------------*/
+
+/* EJERCICIO 1 (POSICIONAMIENTO NAV) → (TOTAL: puntos): 
+*/
+
+/*REGLAS DEL NAV*/
+#idNav {
+    width: 100vw;
+    height: 23vh;
+    background-color: rgb(211, 211, 211);
+    text-transform: uppercase;
+}
+
+/*LOS TRES DIVS QUE HAY DENTRO DEL NAV*/
+#idNav1 {
+    background-color: royalblue;
+    width: 90vw;
+    height: 30%;
+}
+
+#idNav2 {
+    background-color: orange;
+    width: 90vw;
+    height: 30%;
+}
+
+#idNav3 {
+    background-color: mediumspringgreen;
+    width: 90vw;
+    height: 30%;
+}
+
+/*-------------------------------------------------------*/
+
+/* EJERCICIO 2 (POSICIONAMIENTO SECTION #idMain) → (TOTAL: puntos): 
+*/
+
+/*REGLAS DE SECTION MAIN*/
+#idMain {
+    width: 100vw;
+    height: 43vh;
+    background-color: pink;
+}
+
+#idDivCentral{
+}
+
+#idDiv1{
+    width: 100vw;
+    height: 50%;
+}
+
+#idDiv2{
+    width: 100vw;
+    height: 50%;
+}
+
+#idArticle1 {
+    width: 45%;
+    height: 50%;
+    background-color: salmon;
+}
+
+#idArticle2 {
+    width: 45%;
+    height: 50%;
+    background-color: mediumorchid;
+}
+
+#idArticle3 {
+    width: 50%;
+    height: 50%;
+    background-color: palegreen;
+}
+
+#idArticle4 {
+    width: 50%;
+    height: 50%;
+    background-color: gold;
+}
+
+/*-------------------------------------------------------*/
+
+
+/* EJERCICIO 3 (POSICIONAMIENTO FOOTER) → (TOTAL: puntos): 
+*/
+
+/*REGLAS DEL FOOTER*/
+
+#idFooter {
+    background-color: grey;
+    width: 100vw;
+    height: 34vh;
+}
+
+footer section{
+    height: 32vh;
+}
+
+#footer1 {
+    background-color: coral;
+}
+
+#footer2 {
+    background-color: cornflowerblue;
+}
+
+#footer3 {
+    background-color: greenyellow;
+}

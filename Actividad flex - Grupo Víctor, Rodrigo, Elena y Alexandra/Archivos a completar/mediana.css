@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    font-size: x-large;
+    background-color: skyblue;
+}
+
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+
+/* EJERCICIO 1 (POSICIONAMIENTO NAV) → (TOTAL: 4 puntos): 
+    -Espacio vertical entre divs y contenedor sea exactamente igual, es decir un alineamiento perfecto (0.75 puntos)
+    -Divs centrados horizontalmente (0.5 puntos)
+    -Divs en 2 filas (0.75 puntos)
+    -Que los divs tengan el orden adecuado (1 puntos)
+    -Colocar los textos de los div como corresponde: (1 puntos)
+*/
+
+/* ------------------ */
+/* REGLAS PARA EL NAV */
+/* ------------------ */
+
+#idNav{
+    width: 96vw;
+    height: 20vh;
+    background-color: rgb(211, 211, 211);
+    text-transform: uppercase;
+}
+
+/* reglas para contenido del nav */
+
+#idNav div{
+    width: 40vw;
+    height: 8vh;
+}
+
+#idNav1 {
+    background-color: royalblue;
+}
+
+#idNav2 {
+    background-color: orange;
+}
+
+#idNav3 {
+    background-color: mediumspringgreen;
+}
+
+[id^="idNav"]:nth-child(odd){
+}
+
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+
+/* EJERCICIO 2 (POSICIONAMIENTO SECTION #idMain) → (TOTAL: 4 puntos): 
+    -Posicionamiento del texto de cada uno de los articles (0.5 puntos)
+    -Alineamiento vertical equidistante entre todos los elementos y la caja(salvo el espacio entre article2 y article3 que es el doble del resto de espacios verticales) y con la misma distrubución de todas las cajas (2 puntos);
+    -Alineamiento horizontal de los article como corresponde (1 punto)
+    -Solo se pueden ver los 4 article: (0,5 puntos)
+*/
+
+/* ------------------------------- */
+/* REGLAS PARA EL SECTION #idMain */
+/* ------------------------------ */
+
+#idMain{
+    width: 96vw;
+    height: 61vh;
+    background-color: bisque;
+}
+
+/* contenido del section #idMain */
+
+#idDiv1, #idDiv2{
+    height: 31vh;
+    width: 96vw;
+}
+
+[id^="idArticle"]{
+    width: 66vw;
+    height: 13vh;
+}
+
+#idDivCentral{
+    width: 66vw;
+    height: 13vh;
+    background-color: slateblue;
+}
+
+#idArticle1 {
+    background-color:salmon;
+    justify-self: center;
+    justify-content: flex-end;
+}
+#idArticle2 {
+    background-color:mediumorchid;
+}
+#idArticle3 {
+    background-color:palegreen;
+}
+#idArticle4 {
+    background-color:gold;
+}
+
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+
+
+/* EJERCICIO 3 (POSICIONAMIENTO FOOTER) → (TOTAL: 2 puntos): 
+    - Centrar horizontalmente los section (0.67 puntos)
+    - Centrar verticalmente los section (0.66 puntos)
+    - Colocar el texto de cada section como corresponde (0.66 puntos)
+*/
+
+/* --------------------- */
+/* REGLAS PARA EL FOOTER */
+/* --------------------- */
+
+#idFooter{
+    width: 96vw;
+    height: 15vh;
+    background-color: grey;
+}
+
+/* contenido del footer */
+
+#idFooter section{
+    width: 23vw;
+    height: 11vh;
+}
+
+footer section:nth-child(2){
+    margin: 0vh 1vw 0vh 1vw;
+}
+
+#footer1 {
+    background-color: coral;
+}
+
+#footer2 {
+    background-color: cornflowerblue;
+}
+
+#footer3 {
+    background-color: greenyellow;
+}
