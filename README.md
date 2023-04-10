@@ -1,2 +1,2 @@
-# grupoDIW
-# repositorio para la actividad grupal FLEX con @media querys para tres tamaños de pantalla
+# proyectoFP
+# repositorio para el proyecto final de DAW2
